@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "26597795"))
+API_HASH = getenv("API_HASH", "2192e115418933efece5d008e37f2521")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5900969962:AAE3-KCv7jncRg_WsPPqdfgsiBk5nwGiX58")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lucifer:ASShaw96@lucifer.vuows.mongodb.net/lucifer?retryWrites=true&w=majority")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001801695243"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "SEMO")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "5680297831").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/dragon-ka/AhmedQa",
+    "https://github.com/sourcesemsem/newmusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BAC-rK-HtZI2ufQYUVLcrk08X3h1QxZkgd8B4uo1zanSOeSvaFR4-8tBsezoOtD8x_h_IUX34MuUCnwJ7j2LzX6ReXBZNSf4bpI8yNn0zpI5uD0e_OGwt-ffJfP2RxoYg40wu7erPdR7IgwNTc601xX2qTrfla5p8rsDSmVEBOKelfR_GUIVEa6XghHgvO3TvDxKBmH7KGxL9o5ALeOfSyOHaH_8PpFpYrvVAjXQK-jlaVAGD7p8Eo_dTrsp425Mf9SoPxUFrCmazZbIsGJlNsI-tRG3HyfPEzsJrPqE48d3Ahrt4P4ju5ta320CjFdM6U10nSAN0ewVUGbySRIhhWrsAAAAAVpJmGkA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
